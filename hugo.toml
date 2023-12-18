@@ -30,7 +30,7 @@ style = "github-dark"
 
   # customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
-  # customJS = ["https://kit.fontawesome.com/dc213e7fa6.js"]
+  # customJS = ["js/custom.js"]
 
 [taxonomies]
   category = "categories"
