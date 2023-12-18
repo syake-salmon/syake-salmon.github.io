@@ -45,33 +45,53 @@ style = "github-dark"
   icon = "fa-brands fa-x-twitter fa-2x"
   weight = 1
   url = "https://twitter.com/_syakesalmon/"
+  target = "_blank"
+  rel = "noopenner noreferrer"
+
 [[params.social]]
   name = "Tumblr"
   icon = "fa-brands fa-tumblr fa-2x"
   weight = 2
   url = "https://syakesalmon.tumblr.com/"
+  target = "_blank"
+  rel = "noopenner noreferrer"
+
 [[params.social]]
   name = "Discord"
   icon = "fa-brands fa-discord fa-2x"
   weight = 3
   url = "http://discordapp.com/users/231032349972889610/"
+  target = "_blank"
+  rel = "noopenner noreferrer"
+
 [[params.social]]
   name = "Github"
   icon = "fa-brands fa-github fa-2x"
   weight = 4
   url = "https://github.com/syake-salmon/"
+  target = "_blank"
+  rel = "noopenner noreferrer"
+
 [[params.social]]
   name = "Qiita"
   icon = "fa fa-search fa-2x"
   weight = 5
   url = "https://qiita.com/syakesalmon/"
+  target = "_blank"
+  rel = "noopenner noreferrer"
+
 [[params.social]]
   name = "Xbox"
   icon = "fa-brands fa-xbox fa-2x"
   weight = 6
   url = "https://live.xbox.com/en-US/Profile?gamertag=syakesalmon"
+  target = "_blank"
+  rel = "noopenner noreferrer"
+
 [[params.social]]
   name = "Twitch"
   icon = "fa fa-twitch fa-2x"
   weight = 7
   url = "https://www.twitch.tv/syakesalmon__/"
+  target = "_blank"
+  rel = "noopenner noreferrer"
