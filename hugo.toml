@@ -31,7 +31,7 @@ style = "github-dark"
   # customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
-  customJS = ["js/dc213e7fa6.js"]
+  customRemoteJS = ["https://kit.fontawesome.com/dc213e7fa6.js"]
 
 [taxonomies]
   category = "categories"
@@ -67,7 +67,7 @@ style = "github-dark"
   url = "https://qiita.com/syakesalmon/"
 [[params.social]]
   name = "Xbox"
-  icon = "fa fa-xbox fa-2x"
+  icon = "fa-brands fa-xbox fa-2x"
   weight = 6
   url = "https://live.xbox.com/en-US/Profile?gamertag=syakesalmon"
 [[params.social]]
