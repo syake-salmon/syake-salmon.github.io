@@ -1,1 +1,1 @@
-# syake-salmon.github.io
+![Page Deployment Status](https://github.com/syake-salmon/docs/actions/workflows/github-pages.yml/badge.svg)
