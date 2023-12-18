@@ -1,1 +1,1 @@
-![Page Deployment Status](https://github.com/syake-salmon/docs/actions/workflows/github-pages.yml/badge.svg)
+![Deployment Status](https://github.com/syake-salmon/syake-salmon.github.io/actions/workflows/github-pages.yml/badge.svg)
