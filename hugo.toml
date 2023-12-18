@@ -1,3 +1,76 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://syake-salmon.github.io/'
+languageCode = 'ja-JP'
+title = "Index for syakesalmon"
+theme = 'hugo-coder'
+
+paginate = 20
+
+# disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "syakesalmon"
+  info = "A Sunday-Coder."
+  description = "syakesalmon's personal website"
+  keywords = "developer,game"
+  avatarurl = "images/avatar.jpg"
+
+  faviconSVG = "favicon.svg"
+  favicon_32 = "favicon-32x32.png"
+  favicon_16 = "favicon-16x16.png"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["https://kit.fontawesome.com/dc213e7fa6.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "X(Twitter)"
+  icon = "fa-brands fa-x-twitter fa-2x"
+  weight = 1
+  url = "https://twitter.com/_syakesalmon/"
+[[params.social]]
+  name = "Tumblr"
+  icon = "fa-brands fa-tumblr fa-2x"
+  weight = 2
+  url = "https://syakesalmon.tumblr.com/"
+[[params.social]]
+  name = "Discord"
+  icon = "fa-brands fa-discord fa-2x"
+  weight = 3
+  url = "http://discordapp.com/users/231032349972889610/"
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 4
+  url = "https://github.com/syake-salmon/"
+[[params.social]]
+  name = "Qiita"
+  icon = "fa fa-search fa-2x"
+  weight = 5
+  url = "https://qiita.com/syakesalmon/"
+[[params.social]]
+  name = "Xbox"
+  icon = "fa fa-xbox fa-2x"
+  weight = 6
+  url = "https://live.xbox.com/en-US/Profile?gamertag=syakesalmon"
+[[params.social]]
+  name = "Twitch"
+  icon = "fa fa-twitch fa-2x"
+  weight = 7
+  url = "https://www.twitch.tv/syakesalmon__/"
