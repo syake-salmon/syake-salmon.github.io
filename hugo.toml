@@ -44,7 +44,7 @@ style = "github-dark"
   name = "Bluesky"
   icon = "fa-brands fa-bluesky fa-2x"
   weight = 1
-  url = "https://bsky.app/profile/syake.ikesu.blue"
+  url = "https://bsky.app/profile/syak3.bsky.social"
   target = "_blank"
   rel = "noopenner noreferrer"
 [[params.social]]
@@ -72,7 +72,7 @@ style = "github-dark"
   name = "Twitch"
   icon = "fa fa-twitch fa-2x"
   weight = 5
-  url = "https://www.twitch.tv/syakesalmon__/"
+  url = "https://www.twitch.tv/8ytefish"
   target = "_blank"
   rel = "noopenner noreferrer"
 [[params.social]]
@@ -80,12 +80,5 @@ style = "github-dark"
   icon = "fa fa-search fa-2x"
   weight = 6
   url = "https://qiita.com/syakesalmon/"
-  target = "_blank"
-  rel = "noopenner noreferrer"  
-[[params.social]]
-  name = "Tumblr"
-  icon = "fa-brands fa-tumblr fa-2x"
-  weight = 7
-  url = "https://syakesalmon.tumblr.com/"
   target = "_blank"
   rel = "noopenner noreferrer"
