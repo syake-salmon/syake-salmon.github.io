@@ -5,8 +5,6 @@ theme = 'hugo-coder'
 
 paginate = 20
 
-# disqusShortname = "yourdiscussshortname"
-
 [markup.highlight]
 style = "github-dark"
 
@@ -28,9 +26,6 @@ style = "github-dark"
   colorScheme = "auto"
   hidecolorschemetoggle = false
 
-  # customCSS = ["css/custom.css"]
-  # customSCSS = ["scss/custom.scss"]
-  # customJS = ["js/custom.js"]
   customRemoteJS = ["https://kit.fontawesome.com/dc213e7fa6.js"]
 
 [taxonomies]
