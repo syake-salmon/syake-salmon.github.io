@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>INDEX OF SYAKE</title>
+    <link rel="stylesheet" href="https://js.cybozu.com/font-awesome/v7.2.0/css/fontawesome.min.css">
+    <script src="https://js.cybozu.com/font-awesome/v7.2.0/js/all.min.js"></script>
+    <style>
+        :root {
+            --bg-light: #f5f5f7;
+            --card-light: #ffffff;
+            --border-light: #e5e5e5;
+            --text-light: #1a1a1a;
+
+            --bg-dark: #1c1c1e;
+            --card-dark: #2c2c2e;
+            --border-dark: #3a3a3c;
+            --text-dark: #f5f5f7;
+
+            --radius: 14px;
+            --shadow-light: 0 4px 12px rgba(0, 0, 0, 0.06);
+            --shadow-dark: 0 4px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        html[data-theme="light"] {
+            --bg: var(--bg-light);
+            --card-bg: var(--card-light);
+            --border: var(--border-light);
+            --text: var(--text-light);
+            --shadow: var(--shadow-light);
+        }
+
+        html[data-theme="dark"] {
+            --bg: var(--bg-dark);
+            --card-bg: var(--card-dark);
+            --border: var(--border-dark);
+            --text: var(--text-dark);
+            --shadow: var(--shadow-dark);
+        }
+
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            background: var(--bg);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            color: var(--text);
+            transition: background 0.3s, color 0.3s;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 40px;
+            font-weight: 600;
+        }
+
+        .columns {
+            max-width: 1000px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+        }
+
+        .column {
+            background: transparent;
+            border: none;
+            box-shadow: none;
+            padding: 28px;
+            border-radius: var(--radius);
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            text-align: center;
+            transition: background 0.3s, border 0.3s;
+        }
+
+        .avatar {
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 16px;
+            border: 2px solid var(--border);
+        }
+
+        .column h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        .icon-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .icon-link {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: var(--text);
+            font-size: 24px;
+            transition: color 0.25s ease, opacity 0.25s ease;
+            background: transparent;
+            border: none;
+        }
+
+        .icon-link:hover {
+            opacity: 0.6;
+        }
+
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 42px;
+            height: 42px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 20px;
+            user-select: none;
+            background: transparent;
+            border: none;
+            box-shadow: none;
+            padding: 6px;
+        }
+
+        .theme-toggle:hover {
+            opacity: 0.6;
+            transform: none;
+
+        }
+
+        @media (max-width: 780px) {
+            .columns {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="theme-toggle" id="themeToggle">
+        <svg id="themeIcon" width="22" height="22" viewBox="0 0 24 24" stroke="currentColor" fill="none"
+            stroke-width="2">
+            <path d="M21 12.79A9 9 0 0111.21 3 7 7 0 1019 14.79 9 9 0 0121 12.79z" />
+        </svg>
+    </div>
+
+    <h1>Crafting systems. Playing worlds.</h1>
+
+    <div class="columns">
+
+        <div class="column">
+            <img class="avatar" src="static/images/avatar-tech.jpg" alt="Tech Profile">
+            <h2>syakesalmon (Tech)</h2>
+            <div class="icon-links">
+                <a class="icon-link" href="https://github.com/syake-salmon" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a class="icon-link" href="https://qiita.com/syakesalmon" target="_blank">
+                    <i class="fa-solid fa-code"></i>
+                </a>
+                <a class="icon-link" href="https://bsky.app/profile/syak3.bsky.social" target="_blank">
+                    <i class="fa-brands fa-bluesky"></i>
+                </a>
+                <a class="icon-link" href="https://discord.gg/XnVhfv8m" target="_blank">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="column">
+            <img class="avatar" src="static/images/avatar-game.jpg" alt="Game Profile">
+            <h2>8yteFish (Game)</h2>
+            <div class="icon-links">
+                <a class="icon-link" href="https://www.twitch.tv/8ytefish" target="_blank">
+                    <i class="fa-brands fa-twitch"></i>
+                </a>
+                <a class="icon-link" href="https://www.youtube.com/@8yteFish" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a class="icon-link" href="https://twitter.com/8ytefish" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a class="icon-link" href="https://steamcommunity.com/id/syakesalmon/" target="_blank">
+                    <i class="fa-brands fa-steam"></i>
+                </a>
+                <a class="icon-link" href="https://www.xbox.com/en-US/play/user/syakesalmon" target="_blank">
+                    <i class="fa-brands fa-xbox"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        const toggle = document.getElementById("themeToggle");
+        const root = document.documentElement;
+
+        function setIcon(theme) {
+            const icon = document.getElementById("themeIcon");
+            if (theme === "dark") {
+                // 太陽アイコン
+                icon.innerHTML = `
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    `;
+            } else {
+                // 月アイコン
+                icon.innerHTML = `
+      <path d="M21 12.79A9 9 0 0111.21 3 7 7 0 1019 14.79 9 9 0 0121 12.79z"/>
+    `;
+            }
+        }
+
+        function applyTheme(theme) {
+            root.setAttribute("data-theme", theme);
+            localStorage.setItem("theme", theme);
+            setIcon(theme);
+        }
+
+
+        const saved = localStorage.getItem("theme");
+        if (saved) {
+            applyTheme(saved);
+        } else {
+            const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+            applyTheme(prefersDark ? "dark" : "light");
+        }
+
+        toggle.addEventListener("click", () => {
+            applyTheme(root.dataset.theme === "dark" ? "light" : "dark");
+        });
+    </script>
+
+</body>
+
+</html>
