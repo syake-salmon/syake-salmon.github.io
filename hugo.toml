@@ -1,79 +1,48 @@
-baseURL = 'https://syake-salmon.github.io/'
-languageCode = 'ja-JP'
-title = "Index for syakesalmon"
-theme = 'hugo-coder'
-
-paginate = 20
-
-[markup.highlight]
-style = "github-dark"
-
 [params]
   author = "syakesalmon"
-  info = "A Sunday-Coder."
-  description = "syakesalmon's personal website"
-  keywords = "developer,game"
-  avatarurl = "images/avatar.jpg"
+  bio = "I code for curiosity and game for joy."
 
-  faviconSVG = "favicon.svg"
-  favicon_32 = "favicon-32x32.png"
-  favicon_16 = "favicon-16x16.png"
+  avatar_tech = "images/avatar-tech.jpg"
+  avatar_game = "images/avatar-game.jpg"
 
-  since = 2023
+[[params.links]]
+  name = "GitHub"
+  icon = "fa-brands fa-github fa-2x"
+  url = "https://github.com/syake-salmon/"
+  category = "tech"
 
-  enableTwemoji = true
+[[params.links]]
+  name = "Qiita"
+  icon = "fa-solid fa-q fa-2x"
+  url = "https://qiita.com/syake-salmon/"
+  category = "tech"
 
-  colorScheme = "auto"
-  hidecolorschemetoggle = false
-
-  customRemoteJS = ["https://kit.fontawesome.com/dc213e7fa6.js"]
-
-[taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
-  author = "authors"
-
-# Social links
-[[params.social]]
+[[params.links]]
   name = "Bluesky"
   icon = "fa-brands fa-bluesky fa-2x"
-  weight = 1
   url = "https://bsky.app/profile/syak3.bsky.social"
-  target = "_blank"
-  rel = "noopenner noreferrer"
-[[params.social]]
-  name = "Discord"
-  icon = "fa-brands fa-discord fa-2x"
-  weight = 2
-  url = "http://discordapp.com/users/231032349972889610/"
-  target = "_blank"
-  rel = "noopenner noreferrer"
-[[params.social]]
-  name = "Github"
-  icon = "fa-brands fa-github fa-2x"
-  weight = 3
-  url = "https://github.com/syake-salmon/"
-  target = "_blank"
-  rel = "noopenner noreferrer"
-[[params.social]]
+  category = "tech"
+
+[[params.links]]
+  name = "Twitch"
+  icon = "fa-brands fa-twitch fa-2x"
+  url = "https://www.twitch.tv/8ytefish"
+  category = "game"
+
+[[params.links]]
   name = "Xbox"
   icon = "fa-brands fa-xbox fa-2x"
-  weight = 4
   url = "https://live.xbox.com/en-US/Profile?gamertag=syakesalmon"
-  target = "_blank"
-  rel = "noopenner noreferrer"
-[[params.social]]
-  name = "Twitch"
-  icon = "fa fa-twitch fa-2x"
-  weight = 5
-  url = "https://www.twitch.tv/8ytefish"
-  target = "_blank"
-  rel = "noopenner noreferrer"
-[[params.social]]
-  name = "Qiita"
-  icon = "fa fa-search fa-2x"
-  weight = 6
-  url = "https://qiita.com/syakesalmon/"
-  target = "_blank"
-  rel = "noopenner noreferrer"
+  category = "game"
+
+[[params.links]]
+  name = "X"
+  icon = "fa-brands fa-x-twitter"
+  url = "https://x.com/8yteFish"
+  category = "game"
+
+# [[params.links]]
+#  name = "Discord"
+#  icon = "fa-brands fa-discord fa-2x"
+#  url = "http://discordapp.com/users/231032349972889610/"
+#  category = "game"

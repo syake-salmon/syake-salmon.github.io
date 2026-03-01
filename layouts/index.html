@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ .Site.Title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/dc213e7fa6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="links-grid">
+            <!-- Tech Column -->
+            <div class="column">
+                <img src="{{ .Site.Params.avatar_tech }}" class="avatar">
+                <h2>Tech</h2>
+                {{ range where .Site.Params.links "category" "tech" }}
+                <a class="link-item" href="{{ .url }}" target="_blank">
+                    <i class="{{ .icon }}"></i>
+                    <span>{{ .name }}</span>
+                </a>
+                {{ end }}
+            </div>
+            <!-- Game Column -->
+            <div class="column">
+                <img src="{{ .Site.Params.avatar_game }}" class="avatar">
+                <h2>Game</h2>
+                {{ range where .Site.Params.links "category" "game" }}
+                <a class="link-item" href="{{ .url }}" target="_blank">
+                    <i class="{{ .icon }}"></i>
+                    <span>{{ .name }}</span>
+                </a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
